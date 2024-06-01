@@ -3,14 +3,27 @@
 ```sh
 npm create astro@latest -- --template basics
 ```
+# Navbar Component
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Este proyecto utiliza TypeScript y Astro para implementar un componente de barra de navegación (navbar).
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Tecnologías Utilizadas
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- TypeScript: Un lenguaje de programación que añade un sistema de tipos estático opcional a JavaScript, lo que facilita la detección de errores y el desarrollo de aplicaciones más robustas.
+- Astro: Un marco de trabajo moderno para construir sitios web rápidos y fluidos utilizando componentes web estándar.
+
+## Descripción
+
+El componente de barra de navegación (navbar) implementado en este proyecto proporciona una navegación intuitiva para usuarios en un sitio web. Está desarrollado utilizando TypeScript para garantizar la seguridad de los tipos y Astro para la renderización eficiente del componente en el lado del cliente.
+
+## Instalación
+
+1. Clona este repositorio en tu máquina local.
+2. Asegúrate de tener Node.js instalado.
+3. Instala las dependencias utilizando npm o yarn:
+
+```bash
+npm install
 
 ## 🚀 Project Structure
 
