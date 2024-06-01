@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Space+Grotesk:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Oswald:wght@400;500;600&family=Space+Grotesk:wght@300..700&display=swap');
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+}
+.bottom-section{
+  border-top: 1px solid #d3d3d3;
+}
+
+h1{
+  font-size: 4rem;
+  margin-left: 20px;
+  font-family: "Space Grotesk", sans-serif;
+  color:#0F195A;
+}
+.top-section, .bottom-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.top-section {
+  border-bottom: 1px solid #ddd;
+}
+
+.icon-links, .nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.icon-links li, .nav-links li {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 25px;
+  margin-right: -150px;
+  height: 68px;
+}
+
+.search-bar {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+}
+
+.icon-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  margin-right: 500px;
+
+}
+
+.icon-item {
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.icon-item img {
+  height: 40px;
+  margin-right: 0.5rem;
+}
+
+.icon-item .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-item .text span {
+  font-family: "Jockey One", sans-serif;
+  font-size: 1rem;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .icon-section {
+    flex-direction: column;
+  }
+
+  .icon-item {
+    margin: 1rem 0;
+  }
+}
+
+.icon-item .text .text-1 {
+  color: #5400A5;
+}.icon-item .text .text-2 {
+  color: #1931AD;
+}
+.icon-item .text .text-3 {
+  color: #EE1C5D;
+}
+.icon-item .text .text-4 {
+  color: #99C900;
+}
+.icon-item .text .text-5 {
+  color: #8DE5E0;
+}
+
+a{
+  text-decoration: none;
+  color:#0F195A;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 20px;
+}
